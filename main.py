@@ -28,18 +28,6 @@ class Game(object):
         self.listFunc=[]
         for k in range(self.y): self.listFunc.append(self.xos)
 
-        '''self.listFunc = [".................",
-                            ".................",
-                            ".................",
-                            ".................",
-                            ".................",
-                            ".................",
-                            ".................",
-                            ".................",
-                            ".................",
-                            ".................",
-                            "................."]'''
-
         self.player = player.Player(0, 0, self.screen)
         self.player.maxX = x*50
         self.player.maxY = y*50
